@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Queries>
+	<AddInformation>
+		<![CDATA[
+		INSERT INTO crudoperation.crudapplicationtable(UserName,EmailId,PhoneNumber, Salary, Gendar) values (@UserName,@EmailId,@PhoneNumber, @Salary, @Gendar)
+		]]>
+	</AddInformation>
+
+	<ReadAllInformation>
+		<![CDATA[
+		SELECT * 
+		FROM crudoperation.crudapplicationtable
+		WHERE IsActive = 1;
+		
+		]]>
+	</ReadAllInformation>
+
+	<UpdateAllInformationById>
+		<![CDATA[
+		UPDATE crudoperation.crudapplicationtable
+		SET 
+		UserName=@UserName,
+		EmailId=@EmailId,
+		PhoneNumber=@PhoneNumber,
+		Salary=@Salary,
+		Gendar=@Gender
+		WHERE UserId = @UserId
+		]]>
+	</UpdateAllInformationById>
+
+	<DeleteInformationById>
+		<![CDATA[
+		UPDATE crudoperation.crudapplicationtable
+		SET 
+		IsActive = 0
+		WHERE UserId = @UserId
+		]]>
+	</DeleteInformationById>
+
+
+	<GetDeleteAllInformation>
+		<![CDATA[
+		SELECT * 
+		FROM crudoperation.crudapplicationtable
+		WHERE IsActive = 0;
+		]]>
+	</GetDeleteAllInformation>
+
+
+	<DeleteAllInActiveInformation>
+		<![CDATA[
+		DELETE 
+		FROM crudoperation.crudapplicationtable
+		WHERE IsActive = 0;
+		
+		]]>
+
+	</DeleteAllInActiveInformation>
+
+	<ReadInformationById>
+		<![CDATA[
+		SELECT *
+		FROM crudoperation.crudapplicationtable
+		WHERE UserId=@UserId AND IsActive = 1
+		]]>
+	</ReadInformationById>
+
+
+	<UpdateOnceInformationById>
+		<![CDATA[
+		UPDATE crudoperation.crudapplicationtable
+		SET Salary = @Salary
+		WHERE UserId = @UserId
+		]]>
+	</UpdateOnceInformationById>
+
+
+</Queries>

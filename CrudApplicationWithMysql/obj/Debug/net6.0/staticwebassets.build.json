@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TtQC87OXZjJNP9/yURT0qfGupdKFIJ1qY62ZaI2VtcU=",
+  "Source": "CrudApplicationWithMysql",
+  "BasePath": "_content/CrudApplicationWithMysql",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

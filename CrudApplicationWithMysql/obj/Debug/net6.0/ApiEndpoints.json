@@ -1,0 +1,112 @@
+[
+  {
+    "ContainingType": "CrudApplicationWithMysql.Controllers.CrudApplicationController",
+    "Method": "AddInformation",
+    "RelativePath": "api/CrudApplication/AddInformation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CrudApplicationWithMysql.CommonLayer.Model.AddInformationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudApplicationWithMysql.Controllers.CrudApplicationController",
+    "Method": "DeleteAllInActiveInformation",
+    "RelativePath": "api/CrudApplication/DeleteAllInActiveInformation",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudApplicationWithMysql.Controllers.CrudApplicationController",
+    "Method": "DeleteInformationById",
+    "RelativePath": "api/CrudApplication/DeleteInformationById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CrudApplicationWithMysql.CommonLayer.Model.DeleteInformationByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudApplicationWithMysql.Controllers.CrudApplicationController",
+    "Method": "GetDeleteAllInformation",
+    "RelativePath": "api/CrudApplication/GetDeleteAllInformation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudApplicationWithMysql.Controllers.CrudApplicationController",
+    "Method": "ReadAllInformation",
+    "RelativePath": "api/CrudApplication/ReadAllInformation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudApplicationWithMysql.Controllers.CrudApplicationController",
+    "Method": "ReadInformationById",
+    "RelativePath": "api/CrudApplication/ReadInformationById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CrudApplicationWithMysql.CommonLayer.Model.ReadInformationByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudApplicationWithMysql.Controllers.CrudApplicationController",
+    "Method": "UpdateAllInformationById",
+    "RelativePath": "api/CrudApplication/UpdateAllInformationById",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CrudApplicationWithMysql.CommonLayer.Model.UpdateAllInformationByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CrudApplicationWithMysql.Controllers.CrudApplicationController",
+    "Method": "UpdateOnceInformationById",
+    "RelativePath": "api/CrudApplication/UpdateOnceInformationById",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CrudApplicationWithMysql.CommonLayer.Model.UpdateOnceInformationByIdRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
